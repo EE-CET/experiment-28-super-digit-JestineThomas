@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/SuperDigit.java",
+      "run": "java -cp src SuperDigit",
+      "input": "148 3",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Single Digit n",
+      "setup": "javac src/SuperDigit.java",
+      "run": "java -cp src SuperDigit",
+      "input": "5 2",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "k = 1",
+      "setup": "javac src/SuperDigit.java",
+      "run": "java -cp src SuperDigit",
+      "input": "9875 1",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Large Result (9)",
+      "setup": "javac src/SuperDigit.java",
+      "run": "java -cp src SuperDigit",
+      "input": "9 2",
+      "output": "9",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
